@@ -306,14 +306,19 @@ img {
 
 .social-list {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  column-gap: 24px;
+  margin: 8px 16px 0;
 }
 
 .social-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 /* =======/section-2-scrolls======= */
@@ -371,6 +376,24 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-container {
+  display: block;
+}
+
+.footer-social-list {
+  margin: 0;
+  gap: 16px;
 }
 
 /* =======/footer-scrolls======= */
