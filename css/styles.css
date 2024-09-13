@@ -249,6 +249,24 @@ img {
   flex-direction: column;
 }
 
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  /* fill: #2e2f42; */
+}
+
+/* .social-link-icon {
+  width: 60px;
+  height: 60px;
+  fill: #2e2f42;
+} */
+
 /* ==/section-1-scrolls--page-1-part-2== */
 /* =======section-2-scrolls======= */
 
