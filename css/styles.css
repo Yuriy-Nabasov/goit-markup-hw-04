@@ -154,6 +154,12 @@ img {
 }
 
 .page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  z-index: 9999;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -258,7 +264,12 @@ img {
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
+  margin-bottom: 8px;
   /* fill: #2e2f42; */
+}
+
+.social-list-icon {
+  fill: #2e2f42;
 }
 
 /* .social-link-icon {
@@ -406,7 +417,7 @@ img {
 }
 
 .footer-container {
-  display: block;
+  display: flex;
 }
 
 .footer-social-list {
@@ -414,4 +425,7 @@ img {
   gap: 16px;
 }
 
+.footer-wrap-social {
+  margin-left: 120px;
+}
 /* =======/footer-scrolls======= */
