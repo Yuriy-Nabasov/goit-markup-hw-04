@@ -95,10 +95,10 @@ img {
   color: #404bbf;
 }
 
-/* .studio:active {
+.studio:active {
   color: #d61616;
-} */
-/* 
+}
+
 .studio::after {
   display: block;
   content: "";
@@ -108,9 +108,9 @@ img {
   background-color: #404bbf;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   padding-bottom: 0;
-} */
+}
 
 .page-main-section-button:hover,
 .page-main-section-button:focus {
